@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Generátor data narození a pohlaví z rodného čísla pro občany ČR
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Generátor data narození, pohlaví a věku z rodného čísla pro občany ČR
+      </h1>
+      <form id="rcForm">
+        <label for="rcInput">Zadejte rodné číslo:</label>
+        <input type="text" id="rcInput" placeholder="YYMMDD/XXXX" required />
+        <button type="submit">Generovat datum</button>
+      </form>
+      <div id="result"></div>
+      <div id="privacyNotice">
+        <p>
+          Tato aplikace je pouze testovací a neodesílá žádná data na server.
+          Všechny zadané informace jsou zpracovány pouze lokálně ve vašem
+          prohlížeči.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

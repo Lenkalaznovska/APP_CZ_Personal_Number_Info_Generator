@@ -6,18 +6,24 @@
     <title>
       Generátor data narození a pohlaví z rodného čísla pro občany ČR
     </title>
+    <!-- Link to the stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h1>
-        Generátor data narození, pohlaví a věku z rodného čísla pro občany ČR
+        Generátor data narození, pohlaví, věku a počtu dnů do příštích narozenin
+        z rodného čísla pro občany ČR
       </h1>
       <form id="rcForm">
+        <!-- Label for the input field -->
         <label for="rcInput">Zadejte rodné číslo:</label>
+        <!-- Input field for the birth number -->
         <input type="text" id="rcInput" placeholder="YYMMDD/XXXX" required />
+        <!-- Submit button -->
         <button type="submit">Generovat datum</button>
       </form>
+      <!-- Div to display results -->
       <div id="result"></div>
       <div id="privacyNotice">
         <p>
@@ -27,6 +33,7 @@
         </p>
       </div>
     </div>
+    <!-- Link to the JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>

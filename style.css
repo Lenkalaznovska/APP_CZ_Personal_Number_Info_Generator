@@ -1,3 +1,15 @@
+/* Root settings for the entire document */
+:root {
+  --main-bg-color: #ffffff; /* Background color for main content */
+  --primary-color: #007bff; /* Primary color for buttons */
+  --primary-hover-color: #0056b3; /* Hover color for buttons */
+  --text-dark: #333333; /* Dark text color */
+  --text-light: #666666; /* Light text color */
+  --border-color: #cccccc; /* Border color for input fields */
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Shadow color for container */
+}
+
+/* Body settings */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -8,64 +20,73 @@ body {
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
 
+/* Container settings */
 .container {
-  background: #ffffff;
+  background: var(--main-bg-color);
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px var(--shadow-color);
   max-width: 400px;
   width: 100%;
   text-align: center;
 }
 
+/* Header settings */
 h1 {
   margin-top: 0;
   font-size: 24px;
-  color: #333333;
+  color: var(--text-dark);
 }
 
+/* Form settings */
 form {
   display: grid;
   gap: 10px;
 }
 
+/* Label settings */
 label {
   font-size: 16px;
-  color: #555555;
+  color: var(--text-light);
 }
 
+/* Input settings */
 input {
   padding: 10px;
-  border: 1px solid #cccccc;
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   font-size: 16px;
   width: 100%;
   box-sizing: border-box;
 }
 
+/* Button settings */
 button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #007bff;
+  background-color: var(--primary-color);
   color: white;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
+/* Button hover settings */
 button:hover {
-  background-color: #0056b3;
+  background-color: var(--primary-hover-color);
 }
 
+/* Result display settings */
 #result {
   margin-top: 20px;
   font-size: 18px;
-  color: #333333;
+  color: var(--text-dark);
 }
 
+/* Privacy notice settings */
 #privacyNotice {
   margin-top: 20px;
   font-size: 14px;
-  color: #666666;
+  color: var(--text-light);
 }

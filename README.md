@@ -1,6 +1,8 @@
 # Czech Personal Number Info Generator
 
-Welcome to the repository for the Czech Personal Number Info Generator application. This project is a simple web application that generates the date of birth, gender, age, and the number of days until the next birthday based on a Czech personal number. You can view the live version of the application [here](https://lenkalaznovska.github.io/APP_CZ_Personal_Number_Info_Generator/).
+Welcome to the repository for the Czech Personal Number Info Generator application. This project is a simple web application that generates the date of birth, gender, age, and the number of days until the next birthday based on a Czech personal number. You can view the live version of the application [here](https://lenkalaznovska.github.io/APP_CZ_Personal_Number_Info_Generator/)
+
+![image](https://github.com/user-attachments/assets/a8d51076-782c-4cbe-8fbb-10230e631adb)
 
 ## Contents
 

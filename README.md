@@ -39,10 +39,8 @@ This application is for testing purposes only and does not send any data to a se
 
 ## Usage
 
-1. Download or clone this repository.
-2. Open `index.html` in your browser.
-3. Enter a Czech personal number in the format `YYMMDD/XXXX`.
-4. The application will generate and display the date of birth, gender, age, and the number of days until the next birthday.
+1. Enter a Czech personal number in the format `YYMMDD/XXXX`.
+2. The application will generate and display the date of birth, gender, age, and the number of days until the next birthday.
 
 ## Privacy
 
